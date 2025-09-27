@@ -60,8 +60,20 @@
   font-family: cursive;
 }
 
+#texto2{
+color: antiquewhite;
+text-align: center;
+}
+
+#texto3{
+color:antiquewhite;
+text-align: center;
+}
+
 #libreria{
     width: 40%;
+    margin-bottom:20px;
+    height: 20%;
 }
 
 #caja3{
@@ -123,4 +135,29 @@ hr{
 #iconos1{
     width: 5%;    
     display: flex;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.Libro1{
+    width: 300px;
+    height: 450px;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen{
+width: 220px;
+height: 300px;
+}
+
+.libro{
+    font-size: 20px;
+}
+
+.boton1{
+width: 100px;
 }
