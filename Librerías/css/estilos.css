@@ -30,13 +30,17 @@
     background-size: auto;
     background-repeat: no-repeat;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #lista1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 70px;
+    height:40px;
     list-style: none;
     color: aliceblue;
 }
@@ -63,11 +67,18 @@
 #texto2{
 color: antiquewhite;
 text-align: center;
+font-size: 40px;
 }
 
 #texto3{
 color:antiquewhite;
 text-align: center;
+font-size: 20px;
+}
+
+#recuerdos{
+    position: relative;
+    left: 150px;
 }
 
 #libreria{
@@ -160,4 +171,21 @@ height: 300px;
 
 .boton1{
 width: 100px;
+background-color:rgb(199, 13, 13);
+color:beige;
 }
+
+#recomendaciones{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(117,9,9);
+    margin: 50px;
+}
+
+#libros{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(117,9,9);
+    margin: 50px;   
+}
+
